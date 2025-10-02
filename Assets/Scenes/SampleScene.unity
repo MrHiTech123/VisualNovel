@@ -155,7 +155,9 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0.584462, b: 0, a: 1}
   soundEffect: {fileID: 8300000, guid: f637c5ce9d10e45c7855ed89bfc6b97e, type: 3}
   portraits:
+  - {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
   - {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  - {fileID: 21300000, guid: 2eb73a8fa6c99f140a4e898a7e0e09e0, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 871250424}
   description: Fowdie is a guy who likes to do Fowdie stuff
@@ -1222,6 +1224,18 @@ GameObject:
   - component: {fileID: 1852365222}
   - component: {fileID: 1852365221}
   - component: {fileID: 1852365220}
+  - component: {fileID: 1852365224}
+  - component: {fileID: 1852365225}
+  - component: {fileID: 1852365226}
+  - component: {fileID: 1852365227}
+  - component: {fileID: 1852365228}
+  - component: {fileID: 1852365230}
+  - component: {fileID: 1852365229}
+  - component: {fileID: 1852365231}
+  - component: {fileID: 1852365232}
+  - component: {fileID: 1852365234}
+  - component: {fileID: 1852365233}
+  - component: {fileID: 1852365235}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1242,11 +1256,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 332.4697, y: -460.3551}
+  scrollPos: {x: 1011.7336, y: -139.2205}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.87925076
+  zoom: 0.57699996
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1254,8 +1268,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365189}
-  selectedCommands: []
+  - {fileID: 1852365128}
+  selectedCommands:
+  - {fileID: 1852365135}
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -1304,7 +1319,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 76.3861
+    width: 77.72964
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1350,7 +1365,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'You are a farmer. is spent in the fields, tilling, weeding, and harvesting. '
+  storyText: You are a farmer. Most of your time is spent in the fields, tilling,
+    weeding, and harvesting.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1402,8 +1418,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: Harvest season has just ended, so now you're going into the nearby city
-    of Chepstow to sell some of your food at the market.
+  storyText: Harvest season has just ended, so you're now going into the nearby city
+    of Chepstow to sell some of your crop at the market.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1444,6 +1460,7 @@ MonoBehaviour:
   - {fileID: 1852365135}
   - {fileID: 1852365131}
   - {fileID: 1852365136}
+  - {fileID: 1852365226}
   - {fileID: 1852365137}
   - {fileID: 1852365138}
   suppressAllAutoSelections: 0
@@ -1515,7 +1532,7 @@ MonoBehaviour:
     Last time they helped themselves to half our damned produce.
   description: 
   character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1539,7 +1556,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  storyText: Your friend Fowdie is with you. Suddenly, he turns to you.
+  storyText: Your friend Fowdie is walking with you, pulling the cart full of crops.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1594,10 +1611,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: Fowdie rolls his eyes.
+  storyText: '{i}Chuckles, rolling eyes.{/i}'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1761,7 +1778,7 @@ MonoBehaviour:
     for any excuse to steal our food.
   description: 
   character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1837,7 +1854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.831116
     y: 360.54987
-    width: 195.5785
+    width: 191.42116
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1853,6 +1870,7 @@ MonoBehaviour:
   - {fileID: 1852365149}
   - {fileID: 1852365150}
   - {fileID: 1852365151}
+  - {fileID: 1852365227}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365145
 MonoBehaviour:
@@ -2051,7 +2069,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -205.25175
     y: 446.22723
-    width: 155.5444
+    width: 152.59967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2426,9 +2444,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 194.11696
-    y: 447.27335
-    width: 142.80629
+    x: 146.11696
+    y: 444.07333
+    width: 140.12132
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2621,9 +2639,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 370.363
-    y: 446.28882
-    width: 147.35562
+    x: 315.16287
+    y: 444.68875
+    width: 142.89429
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2818,7 +2836,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -22.990467
     y: 442.35028
-    width: 136.43723
+    width: 133.18892
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2846,7 +2864,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.67013
     y: 551.9961
-    width: 203.76729
+    width: 199.74005
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3175,7 +3193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.855774
     y: 819.4886
-    width: 155.5444
+    width: 152.59967
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3222,7 +3240,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450.66595
     y: 811.57227
-    width: 167.37267
+    width: 165.078
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3254,7 +3272,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 254.95554
     y: 816.4562
-    width: 166.4628
+    width: 163.69153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3286,7 +3304,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 32.14153
     y: 661.3103
-    width: 129.15831
+    width: 127.64299
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3451,7 +3469,7 @@ MonoBehaviour:
     is {i}not {/i} going to help us right now.'
   description: 
   character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  portrait: {fileID: 21300000, guid: 2eb73a8fa6c99f140a4e898a7e0e09e0, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3504,7 +3522,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.9643
     y: 923.99054
-    width: 113.6906
+    width: 112.391685
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3513,7 +3531,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1852365224}
   - {fileID: 1852365205}
+  - {fileID: 1852365225}
+  - {fileID: 1852365231}
+  - {fileID: 1852365232}
+  - {fileID: 1852365234}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365205
 MonoBehaviour:
@@ -3529,7 +3552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: I'm with {$PronounObject}, we're selling our crops together.
+  storyText: I'm Fowdie, and I'm a man.
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
@@ -6110,6 +6133,458 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1852365224
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 103
+  indentLevel: 0
+  storyText: '{i}Turns to Fowdie {/i} And you?'
+  description: 
+  character: {fileID: 1571079746}
+  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365225
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 104
+  indentLevel: 0
+  storyText: "I'm with {$PronounObject}\u2014we're selling our crops together."
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365226
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 105
+  indentLevel: 0
+  storyText: If only there was something we could do about those damned guards. But
+    even if we managed it, we'd probably be drawn and quartered soon after.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365227
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 106
+  indentLevel: 0
+  text: My name is Vivthi. I'm a farmer and I'm here to sell my crops at the market.
+  description: 
+  targetBlock: {fileID: 1852365228}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365228
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 478.59933
+    y: 442.47336
+    width: 127.64299
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 115
+  blockName: Name is Vivthi
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365230}
+  - {fileID: 1852365229}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365229
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 109
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1852365161}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1852365230
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb77d0ce495044f6e9feb91b31798e8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 108
+  indentLevel: 0
+  anyVar:
+    variable: {fileID: 1852365153}
+    data:
+      animatorData:
+        animatorRef: {fileID: 0}
+        animatorVal: {fileID: 0}
+      audioSourceData:
+        audioSourceRef: {fileID: 0}
+        audioSourceVal: {fileID: 0}
+      booleanData:
+        booleanRef: {fileID: 0}
+        booleanVal: 0
+      collectionData:
+        collectionRef: {fileID: 0}
+        collectionVal: {fileID: 0}
+      collider2DData:
+        collider2DRef: {fileID: 0}
+        collider2DVal: {fileID: 0}
+      colliderData:
+        colliderRef: {fileID: 0}
+        colliderVal: {fileID: 0}
+      colorData:
+        colorRef: {fileID: 0}
+        colorVal: {r: 0, g: 0, b: 0, a: 0}
+      floatData:
+        floatRef: {fileID: 0}
+        floatVal: 0
+      gameObjectData:
+        gameObjectRef: {fileID: 0}
+        gameObjectVal: {fileID: 0}
+      integerData:
+        integerRef: {fileID: 0}
+        integerVal: 0
+      materialData:
+        materialRef: {fileID: 0}
+        materialVal: {fileID: 0}
+      matrix4x4Data:
+        matrix4x4Ref: {fileID: 0}
+        matrix4x4Val:
+          e00: 0
+          e01: 0
+          e02: 0
+          e03: 0
+          e10: 0
+          e11: 0
+          e12: 0
+          e13: 0
+          e20: 0
+          e21: 0
+          e22: 0
+          e23: 0
+          e30: 0
+          e31: 0
+          e32: 0
+          e33: 0
+      objectData:
+        objectRef: {fileID: 0}
+        objectVal: {fileID: 0}
+      quaternionData:
+        quaternionRef: {fileID: 0}
+        quaternionVal: {x: 0, y: 0, z: 0, w: 0}
+      rigidbody2DData:
+        rigidbody2DRef: {fileID: 0}
+        rigidbody2DVal: {fileID: 0}
+      rigidbodyData:
+        rigidbodyRef: {fileID: 0}
+        rigidbodyVal: {fileID: 0}
+      spriteData:
+        spriteRef: {fileID: 0}
+        spriteVal: {fileID: 0}
+      stringData:
+        stringRef: {fileID: 0}
+        stringVal: Constilla
+      textureData:
+        textureRef: {fileID: 0}
+        textureVal: {fileID: 0}
+      transformData:
+        transformRef: {fileID: 0}
+        transformVal: {fileID: 0}
+      vector2Data:
+        vector2Ref: {fileID: 0}
+        vector2Val: {x: 0, y: 0}
+      vector3Data:
+        vector3Ref: {fileID: 0}
+        vector3Val: {x: 0, y: 0, z: 0}
+      vector4Data:
+        vector4Ref: {fileID: 0}
+        vector4Val: {x: 0, y: 0, z: 0, w: 0}
+      audioClipData:
+        audioClipRef: {fileID: 0}
+        audioClipVal: {fileID: 0}
+      audioMixerGroupData:
+        audioMixerGroupRef: {fileID: 0}
+        audioMixerGroupVal: {fileID: 0}
+      audioMixerSnapshotData:
+        audioMixerSnapshotRef: {fileID: 0}
+        audioMixerSnapshotVal: {fileID: 0}
+      audioMixerData:
+        audioMixerRef: {fileID: 0}
+        audioMixerVal: {fileID: 0}
+      characterData:
+        characterRef: {fileID: 0}
+        characterVal: {fileID: 0}
+  setOperator: 0
+  variable: {fileID: 0}
+  booleanData:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  integerData:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  floatData:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  stringData:
+    stringRef: {fileID: 0}
+    stringVal: 
+  animatorData:
+    animatorRef: {fileID: 0}
+    animatorVal: {fileID: 0}
+  audioSourceData:
+    audioSourceRef: {fileID: 0}
+    audioSourceVal: {fileID: 0}
+  colorData:
+    colorRef: {fileID: 0}
+    colorVal: {r: 0, g: 0, b: 0, a: 0}
+  gameObjectData:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 0}
+  materialData:
+    materialRef: {fileID: 0}
+    materialVal: {fileID: 0}
+  objectData:
+    objectRef: {fileID: 0}
+    objectVal: {fileID: 0}
+  rigidbody2DData:
+    rigidbody2DRef: {fileID: 0}
+    rigidbody2DVal: {fileID: 0}
+  spriteData:
+    spriteRef: {fileID: 0}
+    spriteVal: {fileID: 0}
+  textureData:
+    textureRef: {fileID: 0}
+    textureVal: {fileID: 0}
+  transformData:
+    transformRef: {fileID: 0}
+    transformVal: {fileID: 0}
+  vector2Data:
+    vector2Ref: {fileID: 0}
+    vector2Val: {x: 0, y: 0}
+  vector3Data:
+    vector3Ref: {fileID: 0}
+    vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1852365231
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 110
+  indentLevel: 0
+  storyText: Well then, you two go ahead.
+  description: 
+  character: {fileID: 1571079746}
+  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365232
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 111
+  indentLevel: 0
+  storyText: You take your carts to the market and begin selling food.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365233
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 363.0352
+    y: 1031.2156
+    width: 84.66205
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 113
+  blockName: Lunch
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365235}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365234
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1852365233}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1852365235
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 114
+  indentLevel: 0
+  storyText: Eventually, you break for lunch.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &2027541133
 GameObject:
   m_ObjectHideFlags: 1
