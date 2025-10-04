@@ -1236,6 +1236,14 @@ GameObject:
   - component: {fileID: 1852365234}
   - component: {fileID: 1852365233}
   - component: {fileID: 1852365235}
+  - component: {fileID: 1852365236}
+  - component: {fileID: 1852365237}
+  - component: {fileID: 1852365238}
+  - component: {fileID: 1852365242}
+  - component: {fileID: 1852365241}
+  - component: {fileID: 1852365240}
+  - component: {fileID: 1852365239}
+  - component: {fileID: 1852365243}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1256,11 +1264,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1011.7336, y: -139.2205}
+  scrollPos: {x: 538.61316, y: -266.4359}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.57699996
+  zoom: 0.7982503
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1268,9 +1276,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365128}
+  - {fileID: 1852365228}
   selectedCommands:
-  - {fileID: 1852365135}
+  - {fileID: 1852365230}
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -1319,7 +1327,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 77.72964
+    width: 77.05918
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1854,7 +1862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.831116
     y: 360.54987
-    width: 191.42116
+    width: 194.31564
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2069,7 +2077,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -205.25175
     y: 446.22723
-    width: 152.59967
+    width: 155.23016
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2446,7 +2454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 146.11696
     y: 444.07333
-    width: 140.12132
+    width: 143.20386
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2641,7 +2649,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 315.16287
     y: 444.68875
-    width: 142.89429
+    width: 147.21262
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2836,7 +2844,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -22.990467
     y: 442.35028
-    width: 133.18892
+    width: 136.1885
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2864,7 +2872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 78.67013
     y: 551.9961
-    width: 199.74005
+    width: 202.33318
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2878,6 +2886,7 @@ MonoBehaviour:
   - {fileID: 1852365171}
   - {fileID: 1852365170}
   - {fileID: 1852365169}
+  - {fileID: 1852365243}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365162
 MonoBehaviour:
@@ -3193,7 +3202,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 54.855774
     y: 819.4886
-    width: 152.59967
+    width: 154.22797
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3240,7 +3249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 450.66595
     y: 811.57227
-    width: 165.078
+    width: 166.25427
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3272,7 +3281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 254.95554
     y: 816.4562
-    width: 163.69153
+    width: 165.25208
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3302,9 +3311,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 32.14153
+    x: -27.85847
     y: 661.3103
-    width: 127.64299
+    width: 128.17096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3320,6 +3329,7 @@ MonoBehaviour:
   - {fileID: 1852365200}
   - {fileID: 1852365199}
   - {fileID: 1852365198}
+  - {fileID: 1852365237}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365197
 MonoBehaviour:
@@ -3522,7 +3532,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 318.9643
     y: 923.99054
-    width: 112.391685
+    width: 114.14028
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6256,7 +6266,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 478.59933
     y: 442.47336
-    width: 127.64299
+    width: 130.17535
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6375,7 +6385,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: Constilla
+        stringVal: Vivthi
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -6526,7 +6536,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 363.0352
     y: 1031.2156
-    width: 84.66205
+    width: 85.07672
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6585,6 +6595,217 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1852365236
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -245.0675
+    y: 833.7173
+    width: 206.34193
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 116
+  blockName: But why is gender important
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365238}
+  - {fileID: 1852365239}
+  - {fileID: 1852365242}
+  - {fileID: 1852365241}
+  - {fileID: 1852365240}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365237
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  indentLevel: 0
+  text: But why do you need to know in the first place?
+  description: 
+  targetBlock: {fileID: 1852365236}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365238
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  storyText: I don't know, but there's a blank spot for it here on this form, and
+    I've got to put {i}something {/i} there.
+  description: 
+  character: {fileID: 1571079746}
+  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365239
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 122
+  indentLevel: 0
+  storyText: So, what'll it be?
+  description: 
+  character: {fileID: 1571079746}
+  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365240
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
+  text: I'm neither
+  description: 
+  targetBlock: {fileID: 1852365189}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365241
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  text: I'm a woman
+  description: 
+  targetBlock: {fileID: 1852365195}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365242
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  text: I'm a man
+  description: 
+  targetBlock: {fileID: 1852365177}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365243
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 123
+  indentLevel: 0
+  text: But why do you need to know in the first place?
+  description: 
+  targetBlock: {fileID: 1852365236}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &2027541133
 GameObject:
   m_ObjectHideFlags: 1
