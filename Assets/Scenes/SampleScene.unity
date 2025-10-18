@@ -1286,7 +1286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Heden
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  nameColor: {r: 0.3284646, g: 0.6754716, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 935f755497794e045a539ca5aad08970, type: 3}
@@ -1834,6 +1834,7 @@ GameObject:
   - component: {fileID: 1852365351}
   - component: {fileID: 1852365353}
   - component: {fileID: 1852365354}
+  - component: {fileID: 1852365355}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1854,11 +1855,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 560.0468, y: -1138.3973}
+  scrollPos: {x: 785.8612, y: -582.255}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.7697501
+  blockViewHeight: 360
+  zoom: 0.73175085
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1866,9 +1867,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365296}
-  selectedCommands:
-  - {fileID: 1852365314}
+  - {fileID: 1852365315}
+  selectedCommands: []
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -1918,7 +1918,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 78.06105
+    width: 77.33171
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2072,7 +2072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 0
-  text: But I already look so innocent. Can't you see it in my eyes?
+  text: (Jokingly) But I already look so innocent. Can't you see it in my eyes?
   description: 
   targetBlock: {fileID: 1852365139}
   hideIfVisited: 0
@@ -2180,8 +2180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: Okay. Let me explain this as clearly as possible. These guards are looking
-    for any excuse to steal our food.
+  storyText: 'Okay. You don''t seem to be getting how serious this is, so let me
+    explain this as clearly as possible:'
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
@@ -2260,7 +2260,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.76904
     y: 328.54932
-    width: 199.65895
+    width: 189.93834
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2477,7 +2477,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -342.85187
     y: 414.2268
-    width: 159.12631
+    width: 152.76721
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2854,7 +2854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8.516846
     y: 412.073
-    width: 146.65474
+    width: 141.83453
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3049,7 +3049,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.56274
     y: 412.68872
-    width: 150.81194
+    width: 145.11435
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3244,7 +3244,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -160.59058
     y: 410.34985
-    width: 139.37965
+    width: 134.18166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3409,7 +3409,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 50
   indentLevel: 0
-  storyText: That means that if you act suspicious, they'll steal our food.
+  storyText: These guards are looking for any excuse to steal our food. That means
+    that if you act suspicious, they'll steal our food.
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
@@ -3498,7 +3499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.23187
     y: 879.459
-    width: 158.08702
+    width: 150.58069
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3545,7 +3546,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.57837
     y: 871.54297
-    width: 170.5586
+    width: 162.60663
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3577,7 +3578,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.13208
     y: 876.42676
-    width: 169.5193
+    width: 161.51337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3609,7 +3610,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -781.63196
     y: 796.38965
-    width: 131.06528
+    width: 125.43551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3750,7 +3751,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.12329
     y: 983.9614
-    width: 116.51509
+    width: 113.40956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3763,9 +3764,9 @@ MonoBehaviour:
   - {fileID: 1852365205}
   - {fileID: 1852365225}
   - {fileID: 1852365231}
-  - {fileID: 1852365232}
   - {fileID: 1852365352}
   - {fileID: 1852365351}
+  - {fileID: 1852365232}
   - {fileID: 1852365277}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365205
@@ -6458,7 +6459,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.99927
     y: 410.4729
-    width: 133.14386
+    width: 128.71532
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6729,7 +6730,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -586.19763
     y: 900.58887
-    width: 212.13054
+    width: 203.05756
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6813,7 +6814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -994.27747
     y: 775.49414
-    width: 146.65474
+    width: 140.74127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6875,7 +6876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -373.72498
     y: 698.7693
-    width: 240
+    width: 230.38927
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7392,7 +7393,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.25757
     y: 914.3408
-    width: 193.42317
+    width: 184.472
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7591,7 +7592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.56189
     y: 1103.1655
-    width: 131.06528
+    width: 125.43551
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7645,7 +7646,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.27855
     y: 152.64938
-    width: 107.16141
+    width: 104.663414
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7754,8 +7755,7 @@ MonoBehaviour:
   itemId: 162
   indentLevel: 0
   storyText: 'I know it''s your first time at the market, so remember: when we get
-    to the gates, keep it simple. We don''t want to have the guards be suspicious
-    of us.'
+    to the gates, keep it simple. We don''t want the guards to be suspicious of us.'
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
@@ -7866,7 +7866,7 @@ MonoBehaviour:
   itemId: 166
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1852365276}
+  targetBlock: {fileID: 1852365278}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -8047,7 +8047,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.9408
     y: 1249.6909
-    width: 146.65474
+    width: 140.74127
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8080,7 +8080,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.21716
     y: 1198.4448
-    width: 116.51509
+    width: 113.40956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8267,7 +8267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87.54077
     y: 1360.8911
-    width: 228.75931
+    width: 219.45657
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8461,7 +8461,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.36981
     y: 1454.8602
-    width: 162.24422
+    width: 156.04703
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8477,6 +8477,7 @@ MonoBehaviour:
   - {fileID: 1852365329}
   - {fileID: 1852365345}
   - {fileID: 1852365346}
+  - {fileID: 1852365355}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365316
 MonoBehaviour:
@@ -8574,7 +8575,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.52924
     y: 1351.4786
-    width: 167.4407
+    width: 159.32683
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8786,7 +8787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 447.25745
     y: 1146.3276
-    width: 240
+    width: 231.48253
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9186,11 +9187,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 227
   indentLevel: 0
-  storyText: Ugggggh, right? Well, I'd better be going. These onions aren't going
-    to get to the castle themselves.
+  storyText: Ugggggh, right?
   description: 
   character: {fileID: 1262518015}
-  portrait: {fileID: 21300000, guid: 1e324fe9e995f404f92343c3bae8ac46, type: 3}
+  portrait: {fileID: 21300000, guid: 935f755497794e045a539ca5aad08970, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9733,7 +9733,35 @@ MonoBehaviour:
     noble can learn it just by looking at it.
   description: 
   character: {fileID: 1262518015}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 8451bc90d95a28e40b42e25986db3486, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365355
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 237
+  indentLevel: 0
+  storyText: Well, I'd better be going. These onions aren't going to get to the castle
+    themselves.
+  description: 
+  character: {fileID: 1262518015}
+  portrait: {fileID: 21300000, guid: 1e324fe9e995f404f92343c3bae8ac46, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
