@@ -1839,7 +1839,6 @@ GameObject:
   - component: {fileID: 1852365202}
   - component: {fileID: 1852365203}
   - component: {fileID: 1852365204}
-  - component: {fileID: 1852365205}
   - component: {fileID: 1852365208}
   - component: {fileID: 1852365207}
   - component: {fileID: 1852365206}
@@ -1858,8 +1857,6 @@ GameObject:
   - component: {fileID: 1852365222}
   - component: {fileID: 1852365221}
   - component: {fileID: 1852365220}
-  - component: {fileID: 1852365224}
-  - component: {fileID: 1852365225}
   - component: {fileID: 1852365227}
   - component: {fileID: 1852365228}
   - component: {fileID: 1852365230}
@@ -1968,6 +1965,11 @@ GameObject:
   - component: {fileID: 1852365358}
   - component: {fileID: 1852365357}
   - component: {fileID: 1852365356}
+  - component: {fileID: 1852365361}
+  - component: {fileID: 1852365362}
+  - component: {fileID: 1852365363}
+  - component: {fileID: 1852365364}
+  - component: {fileID: 1852365365}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1988,11 +1990,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 705.1906, y: 94.71002}
+  scrollPos: {x: 680.74, y: -340.19986}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 360
-  zoom: 0.62074935
+  zoom: 0.7194993
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2000,9 +2002,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365144}
+  - {fileID: 1852365161}
   selectedCommands:
-  - {fileID: 1852365356}
+  - {fileID: 1852365365}
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -2052,7 +2054,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 75.7753
+    width: 77.797104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2394,7 +2396,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.76904
     y: 328.54932
-    width: 184.03156
+    width: 192.3212
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2409,6 +2411,7 @@ MonoBehaviour:
   - {fileID: 1852365358}
   - {fileID: 1852365357}
   - {fileID: 1852365147}
+  - {fileID: 1852365361}
   - {fileID: 1852365148}
   - {fileID: 1852365149}
   - {fileID: 1852365150}
@@ -2510,7 +2513,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 27
   indentLevel: 0
-  text: My name is Tremevelt. I'm a farmer and I'm here to sell my crops at the market.
+  text: Tremevelt
   description: 
   targetBlock: {fileID: 1852365152}
   hideIfVisited: 0
@@ -2535,7 +2538,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 28
   indentLevel: 0
-  text: My name is Winuel. I'm a farmer and I'm here to sell my crops at the market.
+  text: Winuel
   description: 
   targetBlock: {fileID: 1852365160}
   hideIfVisited: 0
@@ -2560,7 +2563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  text: My name is Mirelma. I'm a farmer and I'm here to sell my crops at the market.
+  text: Mirelma
   description: 
   targetBlock: {fileID: 1852365156}
   hideIfVisited: 0
@@ -2585,7 +2588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 30
   indentLevel: 0
-  text: My name is Constilla. I'm a farmer and I'm here to sell my crops at the market.
+  text: Constilla
   description: 
   targetBlock: {fileID: 1852365158}
   hideIfVisited: 0
@@ -2612,7 +2615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -342.85187
     y: 414.2268
-    width: 150.52365
+    width: 154.51712
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2989,7 +2992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8.516846
     y: 412.073
-    width: 140.21353
+    width: 143.39828
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3184,7 +3187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.56274
     y: 412.68872
-    width: 142.79108
+    width: 146.73395
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3379,7 +3382,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -160.59058
     y: 410.34985
-    width: 132.48096
+    width: 135.6151
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3416,7 +3419,10 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1852365365}
   - {fileID: 1852365167}
+  - {fileID: 1852365362}
+  - {fileID: 1852365363}
   - {fileID: 1852365254}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365162
@@ -3517,7 +3523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: Alright {$Name}, are you a man, a woman, or neither?
+  storyText: Alright, Fowdie, are you a man, a woman, or neither?
   description: 
   character: {fileID: 1571079746}
   portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
@@ -3634,7 +3640,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.23187
     y: 879.459
-    width: 147.94614
+    width: 152.29337
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3681,7 +3687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.57837
     y: 871.54297
-    width: 158.25626
+    width: 164.52408
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3713,7 +3719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.13208
     y: 876.42676
-    width: 158.25626
+    width: 163.4122
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3745,7 +3751,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -781.63196
     y: 796.38965
-    width: 123.459595
+    width: 126.72002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3886,7 +3892,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.12329
     y: 983.9614
-    width: 109.28319
+    width: 114.48929
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3895,42 +3901,12 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1852365224}
-  - {fileID: 1852365205}
-  - {fileID: 1852365225}
   - {fileID: 1852365231}
   - {fileID: 1852365352}
   - {fileID: 1852365351}
   - {fileID: 1852365232}
   - {fileID: 1852365277}
   suppressAllAutoSelections: 0
---- !u!114 &1852365205
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 84
-  indentLevel: 0
-  storyText: I'm Fowdie, and I'm a man.
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365206
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6499,60 +6475,6 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
---- !u!114 &1852365224
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 103
-  indentLevel: 0
-  storyText: '{i}Turns to Fowdie {/i} And you?'
-  description: 
-  character: {fileID: 1571079746}
-  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1852365225
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 104
-  indentLevel: 0
-  storyText: "I'm with {$PronounObject}\u2014we're selling our crops together."
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365227
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6567,7 +6489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 106
   indentLevel: 0
-  text: My name is Vivthi. I'm a farmer and I'm here to sell my crops at the market.
+  text: Vivthi
   description: 
   targetBlock: {fileID: 1852365228}
   hideIfVisited: 0
@@ -6594,7 +6516,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.99927
     y: 410.4729
-    width: 126.037125
+    width: 130.05566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6865,7 +6787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -586.19763
     y: 900.58887
-    width: 196.91919
+    width: 205.6638
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6875,6 +6797,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1852365238}
+  - {fileID: 1852365364}
   - {fileID: 1852365239}
   - {fileID: 1852365255}
   suppressAllAutoSelections: 0
@@ -6949,7 +6872,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -994.27747
     y: 775.49414
-    width: 136.34724
+    width: 142.2864
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7011,7 +6934,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -373.72498
     y: 698.7693
-    width: 222.69449
+    width: 233.46092
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7528,7 +7451,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.25757
     y: 914.3408
-    width: 178.8765
+    width: 186.76178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7642,8 +7565,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: The guards take lots of your crops. At some points, Fowdie tries to
-    stop them but they calmly assert their authority tk.
+  storyText: The guards continue to plunder your cart, taking much more food than
+    would be needed for a simple poison test.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7698,7 +7621,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 155
   indentLevel: 0
-  storyText: I think that's enough confirmation. We'll save the rest for later.
+  storyText: I think that's enough confirmation. We'll...save the rest for a more
+    thorough check later.
   description: 
   character: {fileID: 1571079746}
   portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
@@ -7727,7 +7651,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.56189
     y: 1103.1655
-    width: 123.459595
+    width: 126.72002
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7781,7 +7705,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.27855
     y: 152.64938
-    width: 101.5506
+    width: 105.594215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8021,8 +7945,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: Are you crazy? You could have been killed! What on Orthormen were you
-    thinking!?
+  storyText: '{i}To you {/i} Are you crazy? You could have been killed! What on Orthormen
+    were you thinking!?'
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d0b4e47ac35946544aabddd633d868c4, type: 3}
@@ -8049,11 +7973,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: '{i}Turns to you {/i}, I hope you''re now ready to answer. Are you a
+  storyText: '{i}Turns to you {/i} I hope you''re now ready to answer. Are you a
     man, a woman, or neither?'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 1571079746}
+  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8182,7 +8106,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.9408
     y: 1249.6909
-    width: 136.34724
+    width: 142.2864
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8215,7 +8139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.21716
     y: 1198.4448
-    width: 110.571945
+    width: 114.48929
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8402,7 +8326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87.54077
     y: 1360.8911
-    width: 213.67314
+    width: 222.34207
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8596,7 +8520,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.36981
     y: 1454.8602
-    width: 153.1012
+    width: 157.85278
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8710,7 +8634,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.52924
     y: 1351.4786
-    width: 155.67871
+    width: 161.18843
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8922,7 +8846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 447.25745
     y: 1146.3276
-    width: 223.98326
+    width: 234.5728
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9032,7 +8956,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.93007
     y: 1259.9122
-    width: 234.29338
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9818,7 +9742,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1852365356
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9841,7 +9765,7 @@ MonoBehaviour:
   audioSourceOLD: {fileID: 0}
 --- !u!114 &1852365357
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9862,7 +9786,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1852365358
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9927,6 +9851,142 @@ MonoBehaviour:
   fadeDuration: 0
   waitUntilFinished: 0
   audioSourceOLD: {fileID: 0}
+--- !u!114 &1852365361
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 258
+  indentLevel: 0
+  storyText: I'm Fowdie, and I'm here with...
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365362
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 259
+  indentLevel: 0
+  storyText: I'm...a man?
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365363
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
+  storyText: And you, {$Name}?
+  description: 
+  character: {fileID: 1571079746}
+  portrait: {fileID: 21300000, guid: c2d31936eb033cc48854d80d9886e830, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 261
+  indentLevel: 0
+  storyText: '{i}Whispering {/i} Must be a new regulation. I''ve never had to do
+    that before.'
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 262
+  indentLevel: 0
+  storyText: Yes, I'm here with {$Name}. We're here to sell our crops at the market.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1885947575
 GameObject:
   m_ObjectHideFlags: 0
