@@ -1998,6 +1998,10 @@ GameObject:
   - component: {fileID: 1852365395}
   - component: {fileID: 1852365397}
   - component: {fileID: 1852365399}
+  - component: {fileID: 1852365400}
+  - component: {fileID: 1852365402}
+  - component: {fileID: 1852365401}
+  - component: {fileID: 1852365403}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2018,7 +2022,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 508.66812, y: -1681.5798}
+  scrollPos: {x: 484.02365, y: -1831.343}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 360
@@ -2030,8 +2034,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365394}
-  selectedCommands: []
+  - {fileID: 1852365390}
+  selectedCommands:
+  - {fileID: 1852365403}
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -10365,6 +10370,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1852365384}
   - {fileID: 1852365392}
+  - {fileID: 1852365400}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365382
 MonoBehaviour:
@@ -10422,8 +10428,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 281
   indentLevel: 0
-  storyText: I don't think she was lying, but it still doesn't make sense.  Why would
-    it be improper for a commoner to look at a spell in the first place?
+  storyText: I don't think she was lying. I've known Heden for a long time, and I'd
+    trust her with my life.
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
@@ -10490,6 +10496,7 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1852365388}
+  - {fileID: 1852365402}
   - {fileID: 1852365393}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365387
@@ -10534,8 +10541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 285
   indentLevel: 0
-  storyText: No, it definitely didn't add up. If commoners really can't cast spells,
-    why there be a rule against looking at them?
+  storyText: No, it definitely didn't add up. Why would it be improper for a commoner
+    to look upon spells?
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
@@ -10562,17 +10569,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 218.9385
-    y: 2027.2504
-    width: 108.767746
+    x: -24.663284
+    y: 2008.2928
+    width: 191.23215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 286
-  blockName: New Block
+  blockName: Nobles don't care about us
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1852365403}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365392
 MonoBehaviour:
@@ -10589,7 +10597,7 @@ MonoBehaviour:
   itemId: 290
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1852365394}
+  targetBlock: {fileID: 1852365385}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -10718,7 +10726,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1852365399
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -10741,6 +10749,114 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1852365400
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 297
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 179.957
+    y: 2099.8264
+    width: 156.16107
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 299
+  blockName: Conspiracy thinking
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365402
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 298
+  indentLevel: 0
+  storyText: 
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 300
+  indentLevel: 0
+  storyText: But that's just it. If we can't use magic, why would nobles feel the
+    need to punish us for going near it?
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1885947575
 GameObject:
   m_ObjectHideFlags: 0
