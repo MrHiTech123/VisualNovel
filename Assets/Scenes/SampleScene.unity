@@ -1998,26 +1998,18 @@ GameObject:
   - component: {fileID: 1852365395}
   - component: {fileID: 1852365397}
   - component: {fileID: 1852365399}
-  - component: {fileID: 1852365400}
-  - component: {fileID: 1852365402}
   - component: {fileID: 1852365401}
   - component: {fileID: 1852365403}
-  - component: {fileID: 1852365404}
   - component: {fileID: 1852365405}
   - component: {fileID: 1852365406}
-  - component: {fileID: 1852365407}
   - component: {fileID: 1852365408}
   - component: {fileID: 1852365409}
   - component: {fileID: 1852365410}
-  - component: {fileID: 1852365411}
   - component: {fileID: 1852365412}
   - component: {fileID: 1852365413}
   - component: {fileID: 1852365414}
-  - component: {fileID: 1852365415}
   - component: {fileID: 1852365416}
   - component: {fileID: 1852365417}
-  - component: {fileID: 1852365418}
-  - component: {fileID: 1852365419}
   - component: {fileID: 1852365420}
   - component: {fileID: 1852365421}
   - component: {fileID: 1852365422}
@@ -2051,7 +2043,6 @@ GameObject:
   - component: {fileID: 1852365455}
   - component: {fileID: 1852365456}
   - component: {fileID: 1852365457}
-  - component: {fileID: 1852365458}
   - component: {fileID: 1852365459}
   - component: {fileID: 1852365460}
   - component: {fileID: 1852365461}
@@ -2062,6 +2053,22 @@ GameObject:
   - component: {fileID: 1852365466}
   - component: {fileID: 1852365468}
   - component: {fileID: 1852365467}
+  - component: {fileID: 1852365469}
+  - component: {fileID: 1852365470}
+  - component: {fileID: 1852365471}
+  - component: {fileID: 1852365472}
+  - component: {fileID: 1852365476}
+  - component: {fileID: 1852365475}
+  - component: {fileID: 1852365474}
+  - component: {fileID: 1852365473}
+  - component: {fileID: 1852365477}
+  - component: {fileID: 1852365478}
+  - component: {fileID: 1852365479}
+  - component: {fileID: 1852365484}
+  - component: {fileID: 1852365483}
+  - component: {fileID: 1852365482}
+  - component: {fileID: 1852365481}
+  - component: {fileID: 1852365480}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2082,11 +2089,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 471.17792, y: -2320.0085}
+  scrollPos: {x: 481.53003, y: -2019.4473}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 360
-  zoom: 0.9815002
+  zoom: 0.8362512
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2094,9 +2101,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365466}
+  - {fileID: 1852365414}
   selectedCommands:
-  - {fileID: 1852365468}
+  - {fileID: 1852365424}
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -2147,7 +2154,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 77.71268
+    width: 75.82956
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2489,7 +2496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.76904
     y: 328.54932
-    width: 199.97449
+    width: 187.75766
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2708,7 +2715,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -342.85187
     y: 414.2268
-    width: 157.5904
+    width: 150.44829
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3085,7 +3092,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8.516846
     y: 412.073
-    width: 144.54913
+    width: 138.96848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3280,7 +3287,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.56274
     y: 412.68872
-    width: 149.4396
+    width: 142.79509
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3475,7 +3482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -160.59058
     y: 410.34985
-    width: 138.0285
+    width: 132.27194
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3733,7 +3740,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.23187
     y: 879.459
-    width: 157.5904
+    width: 149.49164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3780,7 +3787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.57837
     y: 871.54297
-    width: 170.63165
+    width: 160.97144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3812,7 +3819,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.13208
     y: 876.42676
-    width: 169.0015
+    width: 160.0148
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3844,7 +3851,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -781.63196
     y: 796.38965
-    width: 130.6928
+    width: 124.61873
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3985,7 +3992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.12329
     y: 983.9614
-    width: 116.83646
+    width: 111.225624
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6609,7 +6616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.99927
     y: 410.4729
-    width: 132.32295
+    width: 126.53203
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6880,7 +6887,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -586.19763
     y: 900.58887
-    width: 211.38559
+    width: 199.23746
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6965,7 +6972,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -994.27747
     y: 775.49414
-    width: 146.99437
+    width: 138.96848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7027,7 +7034,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -373.72498
     y: 698.7693
-    width: 240
+    width: 227.93697
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7544,7 +7551,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.25757
     y: 914.3408
-    width: 193.45386
+    width: 182.01775
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7744,7 +7751,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.56189
     y: 1103.1655
-    width: 130.6928
+    width: 124.61873
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7798,7 +7805,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.27855
     y: 152.64938
-    width: 107.05551
+    width: 102.61577
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8199,7 +8206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.9408
     y: 1249.6909
-    width: 146.99437
+    width: 138.96848
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8232,7 +8239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.21716
     y: 1198.4448
-    width: 116.02138
+    width: 111.225624
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8419,7 +8426,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87.54077
     y: 1360.8911
-    width: 226.87209
+    width: 214.54387
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8613,7 +8620,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.36981
     y: 1454.8602
-    width: 160.85071
+    width: 153.31824
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8730,7 +8737,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.52924
     y: 1351.4786
-    width: 167.37134
+    width: 158.1015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8942,7 +8949,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 447.25745
     y: 1146.3276
-    width: 240
+    width: 227.93697
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9052,7 +9059,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.93007
     y: 1259.9122
-    width: 240
+    width: 238.46013
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10177,7 +10184,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -74.263
     y: 1583.7125
-    width: 194.26894
+    width: 182.01775
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10232,7 +10239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.09
     y: 1581.8446
-    width: 226.057
+    width: 210.71727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10420,7 +10427,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.4812
     y: 1747.1213
-    width: 188.56339
+    width: 178.19115
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10431,7 +10438,6 @@ MonoBehaviour:
   commandList:
   - {fileID: 1852365384}
   - {fileID: 1852365392}
-  - {fileID: 1852365400}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365382
 MonoBehaviour:
@@ -10519,7 +10525,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 128.76485
     y: 1775.9747
-    width: 240
+    width: 230.80693
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10547,7 +10553,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.77646
     y: 1756.4592
-    width: 160.03563
+    width: 150.44829
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10557,7 +10563,6 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1852365388}
-  - {fileID: 1852365402}
   - {fileID: 1852365393}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365387
@@ -10702,7 +10707,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 168.30402
     y: 1874.7279
-    width: 164.11102
+    width: 155.23154
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10756,7 +10761,7 @@ MonoBehaviour:
   indentLevel: 0
   text: 'You''re right. That *is* confusing. '
   description: 
-  targetBlock: {fileID: 1852365401}
+  targetBlock: {fileID: 1852365476}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -10803,7 +10808,7 @@ MonoBehaviour:
   text: Maybe our minds just can't handle it
   description: 
   targetBlock: {fileID: 1852365405}
-  hideIfVisited: 0
+  hideIfVisited: 1
   interactable:
     booleanRef: {fileID: 0}
     booleanVal: 1
@@ -10811,33 +10816,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1852365400
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 297
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365401
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10854,49 +10832,19 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.957
     y: 2099.8264
-    width: 166.55626
+    width: 189.67096
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 299
-  blockName: Conspiracy thinking
+  blockName: Conspiracy thinking menu
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1852365404}
-  - {fileID: 1852365407}
-  - {fileID: 1852365411}
   - {fileID: 1852365410}
   - {fileID: 1852365412}
   - {fileID: 1852365420}
   suppressAllAutoSelections: 0
---- !u!114 &1852365402
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 298
-  indentLevel: 0
-  storyText: 
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365403
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10925,34 +10873,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1852365404
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 301
-  indentLevel: 0
-  storyText: If we could cast spells all along, that could explain why they punished
-    Heden so harshly.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365405
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10969,7 +10889,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 405.36523
     y: 1987.6066
-    width: 240
+    width: 226.02367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10997,40 +10917,12 @@ MonoBehaviour:
   itemId: 303
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1852365401}
+  targetBlock: {fileID: 1852365476}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
   startIndex: 0
   callMode: 0
---- !u!114 &1852365407
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 304
-  indentLevel: 0
-  storyText: '{i}Whispers especially softly {/i} One commoner accidentally learns
-    a spell and suddenly the entire game is up.'
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365408
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11111,33 +11003,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1852365411
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 308
-  indentLevel: 0
-  storyText: One commoner steals a spell, and our entire political system collapses.
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365412
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11179,7 +11044,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.824629
     y: 2185.4968
-    width: 159.22055
+    width: 150.44829
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11208,7 +11073,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 439.55402
     y: 2197.2102
-    width: 184.48799
+    width: 174.36455
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11217,41 +11082,14 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1852365415}
-  - {fileID: 1852365418}
-  - {fileID: 1852365419}
+  - {fileID: 1852365484}
+  - {fileID: 1852365483}
+  - {fileID: 1852365482}
+  - {fileID: 1852365481}
+  - {fileID: 1852365480}
   - {fileID: 1852365424}
   - {fileID: 1852365435}
   suppressAllAutoSelections: 0
---- !u!114 &1852365415
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 312
-  indentLevel: 0
-  storyText: Sure. You heard Heden, Lord Thibberg could shoot fire from his hands.
-    Imagine if every commoner had that power. I bet you those guards wouldn't be
-    pushing us around for long.
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365416
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11308,64 +11146,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1852365418
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 315
-  indentLevel: 0
-  storyText: '{i}Looks wistfully off into the distance {/i}. Maybe we could put a
-    proper king on the throne, or even have a democracy like old Prytanis. Could
-    you imagine it?'
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1852365419
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 316
-  indentLevel: 0
-  storyText: No more of our friends sent off to die in some war because of some lord's
-    whim. No more asshole guards pushing us around and collecting taxes. We'd be
-    in control of our own destinies.
-  description: 
-  character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365420
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11407,7 +11187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 213.00537
     y: 2204.2598
-    width: 125.80232
+    width: 120.79213
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11645,7 +11425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.29785
     y: 2302.3894
-    width: 157.5904
+    width: 150.44829
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11864,11 +11644,10 @@ MonoBehaviour:
   itemId: 329
   indentLevel: 0
   storyText: No more of our friends sent off to die in some war because of some lord's
-    whim. No more asshole guards pushing us around and collecting taxes. We'd be
-    in control of our own destinies.
+    whim. No more asshole guards pushing us around and collecting taxes.
   description: 
   character: {fileID: 3474673}
-  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11897,7 +11676,7 @@ MonoBehaviour:
     you imagine it?'
   description: 
   character: {fileID: 3474673}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -11922,8 +11701,7 @@ MonoBehaviour:
   itemId: 327
   indentLevel: 0
   storyText: Sure. You heard Heden, Lord Thibberg could shoot fire from his hands.
-    Imagine if every commoner had that power. I bet you those guards wouldn't be
-    pushing us around for long.
+    Imagine if every commoner had that power.
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
@@ -11952,18 +11730,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 460.56595
     y: 2265.5908
-    width: 226.87209
+    width: 213.58722
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 311
+  itemId: 366
   blockName: Discuss revolution plan (Copy)
   description: 
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1852365433}
+  - {fileID: 1852365478}
   - {fileID: 1852365432}
   - {fileID: 1852365431}
+  - {fileID: 1852365479}
   - {fileID: 1852365430}
   - {fileID: 1852365429}
   suppressAllAutoSelections: 0
@@ -12408,7 +12188,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -35.763855
     y: 2349.3542
-    width: 137.21342
+    width: 131.31528
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12523,7 +12303,7 @@ MonoBehaviour:
   indentLevel: 0
   text: ...yes?
   description: 
-  targetBlock: {fileID: 1852365452}
+  targetBlock: {fileID: 1852365470}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -12596,9 +12376,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -251.63704
-    y: 2431.8938
-    width: 195.8991
+    x: -309.23703
+    y: 2451.0942
+    width: 182.97441
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12607,7 +12387,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1852365458}
   - {fileID: 1852365460}
   - {fileID: 1852365459}
   suppressAllAutoSelections: 0
@@ -12627,7 +12406,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.798462
     y: 2457.291
-    width: 189.37846
+    width: 177.2345
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12658,7 +12437,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 369.67792
     y: 2505.3628
-    width: 80.15791
+    width: 77.74286
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12733,33 +12512,6 @@ MonoBehaviour:
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1852365458
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 355
-  indentLevel: 0
-  storyText: You were too scared to steal the spell, and the revolution did not happen.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -12973,7 +12725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -59.155586
     y: 2521.5356
-    width: 117.651535
+    width: 112.182274
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12982,12 +12734,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 1852365469}
   - {fileID: 1852365468}
   - {fileID: 1852365467}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365467
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13008,7 +12761,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1852365468
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -13021,6 +12774,437 @@ MonoBehaviour:
   itemId: 364
   indentLevel: 0
   storyText: I understand. I won't force you. It was probably a pipe dream anyway.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365469
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 367
+  indentLevel: 0
+  storyText: You were too scared to steal the spell, and the revolution did not happen.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365470
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -235.35547
+    y: 2342.8994
+    width: 153.31824
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 368
+  blockName: Okay with stuff yes
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365471}
+  - {fileID: 1852365472}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365471
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 369
+  indentLevel: 0
+  storyText: You were actually pretty happy as a farmer. Things weren't quite so
+    bad that you wanted a revolution, and Fowdie was just crazy.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365472
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 370
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1852365452}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1852365473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 374
+  indentLevel: 0
+  storyText: One commoner steals a spell, and our entire political system collapses.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 373
+  indentLevel: 0
+  storyText: '{i}Whispers especially softly {/i} One commoner accidentally learns
+    a spell and suddenly the entire game is up.'
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 372
+  indentLevel: 0
+  storyText: If we could cast spells all along, that could explain why they punished
+    Heden so harshly.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365476
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 188.8448
+    y: 1992.7341
+    width: 157.14484
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 371
+  blockName: Conspiracy thinking
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365475}
+  - {fileID: 1852365474}
+  - {fileID: 1852365473}
+  - {fileID: 1852365477}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 375
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1852365401}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1852365478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 376
+  indentLevel: 0
+  storyText: I bet you those guards wouldn't be pushing us around, that's for sure.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d0b4e47ac35946544aabddd633d868c4, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 377
+  indentLevel: 0
+  storyText: We'd be in control of our own destinies.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 382
+  indentLevel: 0
+  storyText: We'd be in control of our own destinies.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 381
+  indentLevel: 0
+  storyText: No more of our friends sent off to die in some war because of some lord's
+    whim. No more asshole guards pushing us around and collecting taxes.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: e551358ff8aa33247932fc8005996aba, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 380
+  indentLevel: 0
+  storyText: '{i}Looks wistfully off into the distance {/i}. Maybe we could put a
+    proper king on the throne, or even have a democracy like old Prytanis. Could
+    you imagine it?'
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 379
+  indentLevel: 0
+  storyText: I bet you those guards wouldn't be pushing us around, that's for sure.
+  description: 
+  character: {fileID: 3474673}
+  portrait: {fileID: 21300000, guid: d0b4e47ac35946544aabddd633d868c4, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 378
+  indentLevel: 0
+  storyText: Sure. You heard Heden, Lord Thibberg could shoot fire from his hands.
+    Imagine if every commoner had that power.
   description: 
   character: {fileID: 3474673}
   portrait: {fileID: 21300000, guid: d6f098b23636dd049b6745db994faa0b, type: 3}
