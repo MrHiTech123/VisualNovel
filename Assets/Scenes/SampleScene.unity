@@ -2309,6 +2309,38 @@ GameObject:
   - component: {fileID: 1852365539}
   - component: {fileID: 1852365540}
   - component: {fileID: 1852365542}
+  - component: {fileID: 1852365543}
+  - component: {fileID: 1852365544}
+  - component: {fileID: 1852365546}
+  - component: {fileID: 1852365547}
+  - component: {fileID: 1852365549}
+  - component: {fileID: 1852365548}
+  - component: {fileID: 1852365550}
+  - component: {fileID: 1852365551}
+  - component: {fileID: 1852365552}
+  - component: {fileID: 1852365553}
+  - component: {fileID: 1852365554}
+  - component: {fileID: 1852365555}
+  - component: {fileID: 1852365556}
+  - component: {fileID: 1852365557}
+  - component: {fileID: 1852365558}
+  - component: {fileID: 1852365560}
+  - component: {fileID: 1852365559}
+  - component: {fileID: 1852365561}
+  - component: {fileID: 1852365562}
+  - component: {fileID: 1852365563}
+  - component: {fileID: 1852365565}
+  - component: {fileID: 1852365564}
+  - component: {fileID: 1852365566}
+  - component: {fileID: 1852365567}
+  - component: {fileID: 1852365568}
+  - component: {fileID: 1852365569}
+  - component: {fileID: 1852365570}
+  - component: {fileID: 1852365571}
+  - component: {fileID: 1852365573}
+  - component: {fileID: 1852365574}
+  - component: {fileID: 1852365572}
+  - component: {fileID: 1852365575}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2329,11 +2361,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 1246.5758, y: -541.3636}
+  scrollPos: {x: -47.207848, y: -2916.8293}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 360
-  zoom: 0.68149906
+  zoom: 0.9787503
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2341,9 +2373,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1852365269}
+  - {fileID: 1852365574}
   selectedCommands:
-  - {fileID: 1852365542}
+  - {fileID: 1852365575}
   variables:
   - {fileID: 1852365153}
   - {fileID: 1852365174}
@@ -2355,6 +2387,7 @@ MonoBehaviour:
   - {fileID: 1852365347}
   - {fileID: 1852365423}
   - {fileID: 1852365490}
+  - {fileID: 1852365548}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -2396,7 +2429,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 75.825424
+    width: 77.79054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2738,7 +2771,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.76904
     y: 328.54932
-    width: 196.73535
+    width: 200.39586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2957,7 +2990,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -342.85187
     y: 414.2268
-    width: 157.99722
+    width: 157.89268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3334,7 +3367,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8.516846
     y: 412.073
-    width: 146.25839
+    width: 144.81479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3529,7 +3562,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.56274
     y: 412.68872
-    width: 150.95392
+    width: 149.719
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3724,7 +3757,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -160.59058
     y: 410.34985
-    width: 139.21509
+    width: 138.27583
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3982,7 +4015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.23187
     y: 879.459
-    width: 155.64944
+    width: 157.89268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4029,7 +4062,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.57837
     y: 871.54297
-    width: 166.21439
+    width: 170.97058
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4061,7 +4094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.13208
     y: 876.42676
-    width: 166.21439
+    width: 169.33585
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4093,7 +4126,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -781.63196
     y: 796.38965
-    width: 127.476265
+    width: 130.91951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4234,7 +4267,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.12329
     y: 983.9614
-    width: 115.737434
+    width: 117.02425
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6860,7 +6893,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.99927
     y: 410.4729
-    width: 133.34567
+    width: 132.55426
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7131,7 +7164,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -586.19763
     y: 900.58887
-    width: 208.47418
+    width: 211.83902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7216,7 +7249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -994.27747
     y: 775.49414
-    width: 142.73674
+    width: 147.26689
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7278,7 +7311,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -373.72498
     y: 698.7693
-    width: 238.99513
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7795,7 +7828,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.25757
     y: 914.3408
-    width: 188.51817
+    width: 193.85692
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7996,7 +8029,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.56189
     y: 1103.1655
-    width: 128.65015
+    width: 130.91951
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8050,7 +8083,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.27855
     y: 152.64938
-    width: 105.172485
+    width: 107.21582
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8451,7 +8484,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.9408
     y: 1249.6909
-    width: 145.0845
+    width: 147.26689
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8484,7 +8517,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.21716
     y: 1198.4448
-    width: 118.0852
+    width: 116.20687
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8671,7 +8704,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87.54077
     y: 1360.8911
-    width: 226.08241
+    width: 227.36903
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8865,7 +8898,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.36981
     y: 1454.8602
-    width: 160.34497
+    width: 161.16217
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8982,7 +9015,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.52924
     y: 1351.4786
-    width: 166.21439
+    width: 167.70111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9194,7 +9227,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 447.25745
     y: 1146.3276
-    width: 237.82124
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10408,7 +10441,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -74.263
     y: 1583.7125
-    width: 192.03981
+    width: 194.67429
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10463,7 +10496,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.09
     y: 1581.8446
-    width: 222.56078
+    width: 226.55167
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10651,7 +10684,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.4812
     y: 1747.1213
-    width: 188.51817
+    width: 188.9527
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10777,7 +10810,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.77646
     y: 1756.4592
-    width: 156.82333
+    width: 160.34479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10932,7 +10965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 180.26491
     y: 1848.9663
-    width: 161.51886
+    width: 164.43164
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11057,7 +11090,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.957
     y: 2099.8264
-    width: 199.08311
+    width: 202.0306
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11115,7 +11148,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 405.36523
     y: 1987.6066
-    width: 238.99513
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11273,7 +11306,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.824629
     y: 2185.4968
-    width: 157.99722
+    width: 159.52742
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11302,7 +11335,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 439.55402
     y: 2197.2102
-    width: 182.64876
+    width: 184.86586
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11416,7 +11449,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 216.6857
     y: 2224.5002
-    width: 126.30238
+    width: 126.0153
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11654,7 +11687,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.29785
     y: 2302.3894
-    width: 157.99722
+    width: 157.89268
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11959,7 +11992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 460.56595
     y: 2265.5908
-    width: 223.73465
+    width: 227.36903
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12417,7 +12450,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -35.763855
     y: 2349.3542
-    width: 135.69345
+    width: 137.45847
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12607,7 +12640,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -309.23703
     y: 2451.0942
-    width: 193.2137
+    width: 196.30902
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12635,7 +12668,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.798462
     y: 2457.291
-    width: 184.99652
+    width: 189.77007
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12666,7 +12699,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 369.67792
     y: 2505.3628
-    width: 81.69484
+    width: 80.242645
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12959,7 +12992,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -59.155586
     y: 2521.5356
-    width: 116.911316
+    width: 117.84161
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13063,7 +13096,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -235.35547
     y: 2342.8994
-    width: 159.1711
+    width: 161.16217
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13195,7 +13228,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.8448
     y: 1992.7341
-    width: 163.86664
+    width: 166.88374
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13466,7 +13499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.1511
     y: 1933.8816
-    width: 128.65015
+    width: 130.10214
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13778,7 +13811,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 530.4622
     y: 2071.0256
-    width: 238.99513
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13884,7 +13917,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.30743
     y: 2610.2266
-    width: 177.95322
+    width: 183.23112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14123,7 +14156,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.39648
     y: 2708.0977
-    width: 186.1704
+    width: 189.77007
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14333,7 +14366,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 483.56705
     y: 2716.627
-    width: 189.69205
+    width: 193.85692
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16873,7 +16906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.53043
     y: 2834.0967
-    width: 188.51817
+    width: 193.03955
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -16884,6 +16917,9 @@ MonoBehaviour:
   commandList:
   - {fileID: 1852365534}
   - {fileID: 1852365538}
+  - {fileID: 1852365543}
+  - {fileID: 1852365544}
+  - {fileID: 1852365546}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365534
 MonoBehaviour:
@@ -17061,7 +17097,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1852365542
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17079,6 +17115,855 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &1852365543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 441
+  indentLevel: 0
+  text: No
+  description: 
+  targetBlock: {fileID: 1852365547}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 442
+  indentLevel: 0
+  text: Uhhh...to plants, I guess.
+  description: 
+  targetBlock: {fileID: 1852365550}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365546
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 444
+  indentLevel: 0
+  text: '[Lie] yes'
+  description: 
+  targetBlock: {fileID: 1852365551}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365547
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 102.71176
+    y: 2932.463
+    width: 180.779
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 445
+  blockName: No servant experience
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365549}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365548
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afb91b566ceda411bad1e9d3c3243ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: ServantJobExperience
+  value: 0
+--- !u!114 &1852365549
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 446
+  indentLevel: 0
+  storyText: Well, that's alright, I guess. Let's continue with the interview.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365550
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 345.91177
+    y: 2934.8635
+    width: 198.76112
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 447
+  blockName: Experience serving plants
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365552}
+  - {fileID: 1852365553}
+  - {fileID: 1852365554}
+  - {fileID: 1852365555}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365551
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 594.8119
+    y: 2912.764
+    width: 203.66534
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 447
+  blockName: Experience serving people
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365556}
+  - {fileID: 1852365558}
+  - {fileID: 1852365557}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365552
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 448
+  indentLevel: 0
+  storyText: You're a farmer, you mean? Yeah, I guess that's good.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365553
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 449
+  indentLevel: 0
+  storyText: That's probably good enough. I know I'm not supposed to make decisions
+    based on personal beliefs, but plants are like, basically people, y'know?
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365554
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 450
+  indentLevel: 0
+  storyText: Every time I'm around a plant I can feel it, the rhythm of life swirling
+    around me, same as any person.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: 8d3d8c2d541af3b489e7ff5efa200626, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365555
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 451
+  indentLevel: 0
+  storyText: I mean...uh...you're a farmer. That shows diligence and that you're
+    used to hard work, so you'll probably be a good employee.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: 68050ab7ddc36e94887e99ab9c70c9b8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365556
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 452
+  indentLevel: 0
+  storyText: Really? That's great! You'll probably fit right in. Where was your last
+    job?
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365557
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 453
+  indentLevel: 0
+  text: I worked at a lord's house in Bamor.
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365558
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 454
+  indentLevel: 0
+  text: Uh...I...uh...I was lying, actually.
+  description: 
+  targetBlock: {fileID: 1852365560}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365559
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 456
+  indentLevel: 0
+  storyText: You were lying? Well, I appreciate your honesty now, of course, but
+    this workplace is no place for jokes.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365560
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 892.3118
+    y: 2973.2627
+    width: 82.69475
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 455
+  blockName: Lying
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365559}
+  - {fileID: 1852365561}
+  - {fileID: 1852365562}
+  - {fileID: 1852365563}
+  - {fileID: 1852365565}
+  - {fileID: 1852365564}
+  - {fileID: 1852365566}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365561
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 457
+  indentLevel: 0
+  storyText: I don't think you're a good fit for this position.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: 68050ab7ddc36e94887e99ab9c70c9b8, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365562
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 458
+  indentLevel: 0
+  storyText: Really, I think I'm doing you a favor. You pull something like that
+    with a noble and you'll lose your head the next day.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365563
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 459
+  indentLevel: 0
+  storyText: Regardless, I can tell you're disappointed. I'm sorry.
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365564
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 461
+  indentLevel: 0
+  storyText: THE END
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365565
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 460
+  indentLevel: 0
+  storyText: You were rejected from the servant job and were unable to steal the
+    scroll. You return to your village, defeated.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365566
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 462
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &1852365567
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 547.5118
+    y: 3022.862
+    width: 168.51848
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 463
+  blockName: Experience in Bamor
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365568}
+  - {fileID: 1852365569}
+  - {fileID: 1852365570}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365568
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 464
+  indentLevel: 0
+  storyText: Bamor? Well, you're a long way from home! Do you have a letter from
+    your previous employer?
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365569
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 465
+  indentLevel: 0
+  text: I was actually lying, sorry.
+  description: 
+  targetBlock: {fileID: 1852365560}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365570
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 466
+  indentLevel: 0
+  text: No, sorry.
+  description: 
+  targetBlock: {fileID: 1852365574}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365571
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 490.93152
+    y: 3178.4287
+    width: 214.29114
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 467
+  blockName: Excuses for not having letter
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365573}
+  - {fileID: 1852365572}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 470
+  indentLevel: 0
+  text: They wanted to write the letter on parchment, but I'm vegan.
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365573
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 468
+  indentLevel: 0
+  text: Option Text
+  description: 
+  targetBlock: {fileID: 0}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365574
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 578.9063
+    y: 3111.5674
+    width: 134.189
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 469
+  blockName: Excuse prompt
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365575}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 471
+  indentLevel: 0
+  storyText: Why not?
+  description: 
+  character: {fileID: 1394306380}
+  portrait: {fileID: 21300000, guid: b04acb621db0994489c6c29f6f5f3bb3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1885947575
 GameObject:
   m_ObjectHideFlags: 0
