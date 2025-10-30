@@ -391,6 +391,62 @@ Transform:
   m_Children: []
   m_Father: {fileID: 293473240}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &213428196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 213428197}
+  - component: {fileID: 213428198}
+  m_Layer: 0
+  m_Name: LordThibberg
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &213428197
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213428196}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 845063519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213428198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213428196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Lord Thibberg
+  nameColor: {r: 0.6198742, g: 0, b: 0.7056604, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 7f103b8af86ccf64f8d333f57406aa6d, type: 3}
+  - {fileID: 21300000, guid: 760803781a77895429fb9419df0ca71e, type: 3}
+  - {fileID: 21300000, guid: 6b56f11a2ba0dc24fa019a57d5ec8293, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+  effectAudioSource: {fileID: 0}
+  voiceAudioSource: {fileID: 0}
 --- !u!1 &224911855
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,6 +694,60 @@ Transform:
   - {fileID: 280819597}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &436899904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 436899905}
+  - component: {fileID: 436899906}
+  m_Layer: 0
+  m_Name: FireBoltSpellScroll
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &436899905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436899904}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 845063519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &436899906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436899904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: 
+  nameColor: {r: 1, g: 1, b: 1, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: 35401aab0ed90094fb247235d122bd02, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
+  effectAudioSource: {fileID: 0}
+  voiceAudioSource: {fileID: 0}
 --- !u!1 &498620829
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,8 +1231,10 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1571079747}
+  - {fileID: 436899905}
   - {fileID: 3474674}
   - {fileID: 1262518014}
+  - {fileID: 213428197}
   - {fileID: 1394306379}
   - {fileID: 939853010}
   m_Father: {fileID: 0}
@@ -2842,12 +2954,10 @@ GameObject:
   - component: {fileID: 1852365682}
   - component: {fileID: 1852365683}
   - component: {fileID: 1852365684}
-  - component: {fileID: 1852365685}
   - component: {fileID: 1852365687}
   - component: {fileID: 1852365686}
   - component: {fileID: 1852365688}
   - component: {fileID: 1852365689}
-  - component: {fileID: 1852365690}
   - component: {fileID: 1852365691}
   - component: {fileID: 1852365692}
   - component: {fileID: 1852365693}
@@ -2860,7 +2970,6 @@ GameObject:
   - component: {fileID: 1852365700}
   - component: {fileID: 1852365701}
   - component: {fileID: 1852365702}
-  - component: {fileID: 1852365703}
   - component: {fileID: 1852365704}
   - component: {fileID: 1852365705}
   - component: {fileID: 1852365706}
@@ -2925,6 +3034,19 @@ GameObject:
   - component: {fileID: 1852365767}
   - component: {fileID: 1852365768}
   - component: {fileID: 1852365769}
+  - component: {fileID: 1852365770}
+  - component: {fileID: 1852365771}
+  - component: {fileID: 1852365772}
+  - component: {fileID: 1852365773}
+  - component: {fileID: 1852365774}
+  - component: {fileID: 1852365775}
+  - component: {fileID: 1852365777}
+  - component: {fileID: 1852365783}
+  - component: {fileID: 1852365795}
+  - component: {fileID: 1852365796}
+  - component: {fileID: 1852365797}
+  - component: {fileID: 1852365798}
+  - component: {fileID: 1852365799}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2945,11 +3067,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -272.0708, y: -3467.0305}
+  scrollPos: {x: 2070.8677, y: -4021.3406}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 360
-  zoom: 0.99974996
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2972,6 +3094,7 @@ MonoBehaviour:
   - {fileID: 1852365490}
   - {fileID: 1852365548}
   - {fileID: 1852365735}
+  - {fileID: 1852365783}
   description: 
   stepPause: 0
   colorCommands: 1
@@ -3013,7 +3136,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 77.2068
+    width: 75.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3355,7 +3478,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.76904
     y: 328.54932
-    width: 197.23682
+    width: 184.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3574,7 +3697,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -342.85187
     y: 414.2268
-    width: 155.6264
+    width: 152.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3951,7 +4074,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8.516846
     y: 412.073
-    width: 143.62341
+    width: 139.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4146,7 +4269,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.56274
     y: 412.68872
-    width: 147.62442
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4341,7 +4464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -160.59058
     y: 410.34985
-    width: 137.2218
+    width: 133.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4599,7 +4722,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -331.23187
     y: 879.459
-    width: 155.6264
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4647,7 +4770,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 64.57837
     y: 871.54297
-    width: 168.42961
+    width: 158.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4680,7 +4803,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -131.13208
     y: 876.42676
-    width: 166.82922
+    width: 158.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4713,7 +4836,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -781.63196
     y: 796.38965
-    width: 129.21982
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4854,7 +4977,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -67.12329
     y: 983.9614
-    width: 115.61641
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7480,7 +7603,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340.99927
     y: 410.4729
-    width: 130.8202
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7751,7 +7874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -586.19763
     y: 900.58887
-    width: 208.43962
+    width: 197.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7836,7 +7959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -994.27747
     y: 775.49414
-    width: 145.22382
+    width: 136.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7898,7 +8021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -373.72498
     y: 698.7693
-    width: 240
+    width: 222.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8415,7 +8538,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -891.25757
     y: 914.3408
-    width: 190.83522
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8616,7 +8739,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.56189
     y: 1103.1655
-    width: 129.21982
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8670,7 +8793,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 46.27855
     y: 152.64938
-    width: 106.01401
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9071,7 +9194,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -265.9408
     y: 1249.6909
-    width: 145.22382
+    width: 139.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9104,7 +9227,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104.21716
     y: 1198.4448
-    width: 114.81621
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9291,7 +9414,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -87.54077
     y: 1360.8911
-    width: 223.64342
+    width: 216.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9485,7 +9608,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.36981
     y: 1454.8602
-    width: 159.62741
+    width: 152.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9602,7 +9725,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 230.52924
     y: 1351.4786
-    width: 165.22882
+    width: 158.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9814,7 +9937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 447.25745
     y: 1146.3276
-    width: 239.64742
+    width: 226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9924,7 +10047,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 218.93007
     y: 1259.9122
-    width: 240
+    width: 235.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11028,7 +11151,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -74.263
     y: 1583.7125
-    width: 191.63542
+    width: 181.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11083,7 +11206,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.09
     y: 1581.8446
-    width: 222.84322
+    width: 206.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11271,7 +11394,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -113.4812
     y: 1747.1213
-    width: 186.03401
+    width: 181.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11369,7 +11492,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 128.76485
     y: 1775.9747
-    width: 240
+    width: 229.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11397,7 +11520,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 446.77646
     y: 1756.4592
-    width: 158.02701
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11552,7 +11675,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 180.26491
     y: 1848.9663
-    width: 162.02802
+    width: 152.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11677,7 +11800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 179.957
     y: 2099.8264
-    width: 198.83722
+    width: 187.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11735,7 +11858,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 405.36523
     y: 1987.6066
-    width: 238.04703
+    width: 222.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11893,7 +12016,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.824629
     y: 2185.4968
-    width: 158.02701
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11922,7 +12045,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 439.55402
     y: 2197.2102
-    width: 182.03302
+    width: 174.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12036,7 +12159,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 216.6857
     y: 2224.5002
-    width: 124.41861
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12274,7 +12397,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 214.29785
     y: 2302.3894
-    width: 155.6264
+    width: 152.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12579,7 +12702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 460.56595
     y: 2265.5908
-    width: 223.64342
+    width: 213.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13037,7 +13160,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -35.763855
     y: 2349.3542
-    width: 135.6214
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13227,7 +13350,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -309.23703
     y: 2451.0942
-    width: 193.23581
+    width: 181.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13255,7 +13378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 36.798462
     y: 2457.291
-    width: 186.83421
+    width: 174.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13286,7 +13409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 369.67792
     y: 2505.3628
-    width: 79.60741
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13579,7 +13702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -59.155586
     y: 2521.5356
-    width: 116.41661
+    width: 114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13683,7 +13806,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -235.35547
     y: 2342.8994
-    width: 158.82721
+    width: 152.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13815,7 +13938,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 188.8448
     y: 1992.7341
-    width: 164.42862
+    width: 155.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14086,7 +14209,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 203.1511
     y: 1933.8816
-    width: 128.41962
+    width: 123.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14398,7 +14521,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 530.4622
     y: 2071.0256
-    width: 236.44662
+    width: 226
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14504,7 +14627,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 329.30743
     y: 2610.2266
-    width: 180.43262
+    width: 171.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14559,7 +14682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 401
   indentLevel: 0
-  storyText: I'm here with {$PronounSubject} to sell our crops together {i}gestures
+  storyText: I'm here with {$PronounObject} to sell our crops together {i}gestures
     to the cart. {/i}
   description: 
   character: {fileID: 3474673}
@@ -14743,7 +14866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 135.39648
     y: 2708.0977
-    width: 186.83421
+    width: 174.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14953,7 +15076,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 483.56705
     y: 2716.627
-    width: 190.83522
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17493,7 +17616,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 305.53043
     y: 2834.0967
-    width: 190.03502
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17793,7 +17916,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -62.880264
     y: 3019.6167
-    width: 178.03201
+    width: 168.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17865,7 +17988,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.771
     y: 3032.5977
-    width: 158.82721
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17896,7 +18019,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 594.8119
     y: 2912.764
-    width: 200.43762
+    width: 187.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18115,7 +18238,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 952.95605
     y: 2931.8223
-    width: 82.008
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18305,7 +18428,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608.156
     y: 2981.4216
-    width: 166.02902
+    width: 158.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18412,7 +18535,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 551.5757
     y: 3136.9883
-    width: 210.84023
+    width: 197.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18492,7 +18615,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 639.55054
     y: 3070.127
-    width: 132.42061
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18547,7 +18670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 416.72763
     y: 3033.4075
-    width: 130.8202
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18750,7 +18873,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 874.5811
     y: 3152.316
-    width: 110.01501
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -18849,7 +18972,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 695.3431
     y: 3215.0295
-    width: 146.02402
+    width: 136.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19011,7 +19134,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 520.98987
     y: 3361.7021
-    width: 80.40761
+    width: 78.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19075,7 +19198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 825.79065
     y: 3392.441
-    width: 134.02101
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19186,7 +19309,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 263.02957
     y: 2932.4019
-    width: 198.83722
+    width: 190.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19554,7 +19677,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 346.7602
     y: 3464.3137
-    width: 157.2268
+    width: 149.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19637,7 +19760,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 683.56006
     y: 3509.9124
-    width: 208.43962
+    width: 203.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19801,7 +19924,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 469.05917
     y: 3587.8213
-    width: 177.23181
+    width: 171.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19856,7 +19979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 509.02808
     y: 3736.1267
-    width: 182.03302
+    width: 174.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -19962,7 +20085,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 666.1801
     y: 3399.5254
-    width: 106.01401
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20095,7 +20218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 810.9654
     y: 3731.8882
-    width: 208.43962
+    width: 200.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20111,9 +20234,10 @@ MonoBehaviour:
   - {fileID: 1852365659}
   - {fileID: 1852365681}
   - {fileID: 1852365683}
+  - {fileID: 1852365777}
   - {fileID: 1852365684}
-  - {fileID: 1852365685}
-  - {fileID: 1852365703}
+  - {fileID: 1852365771}
+  - {fileID: 1852365770}
   suppressAllAutoSelections: 0
 --- !u!114 &1852365647
 MonoBehaviour:
@@ -20959,7 +21083,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 843.8376
     y: 3283.593
-    width: 194.03601
+    width: 187.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -20987,7 +21111,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -3.7739105
     y: 3176.3088
-    width: 150.82521
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21176,7 +21300,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 226.90002
     y: 3118.8298
-    width: 146.82422
+    width: 139.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21334,7 +21458,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -89.933044
     y: 3096.0242
-    width: 118.017006
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21494,8 +21618,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 581
   indentLevel: 0
-  storyText: Eventually, you're able to slip away. You run into Heden, who takes
-    you to Lord Thibberg's room.
+  storyText: In the kitchens, someone mentions that Lord Thibberg is bedridden and
+    that someone needs to deliver some food to him. You volunteer, hoping to get
+    close to him.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -21522,36 +21647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 582
   indentLevel: 0
-  storyText: As you suspected, he's bedridden. He's a bit confused about what you're
-    doing there, but he's willing to give you the benefit of the doubt.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &1852365685
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 583
-  indentLevel: 0
-  storyText: Well...at least until you find and take his spell from him. At that
-    moment he calls for help, but everyone's off at the party, right?
+  storyText: You arrive in Lord Thibberg's bedroom, holding the plate of food.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -21606,18 +21702,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 782.6418
-    y: 3827.5825
-    width: 240
+    x: 757.724
+    y: 4139.9688
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 584
-  blockName: Regles Enters Lord Thibberg's Room
+  blockName: Take Spell Scroll
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 1852365690}
   - {fileID: 1852365691}
   - {fileID: 1852365704}
   - {fileID: 1852365686}
@@ -21674,34 +21769,6 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1852365690
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 588
-  indentLevel: 0
-  storyText: As you take the spell scroll off of Lord Thibberg's shelf, you look
-    at it.
-  description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &1852365691
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -21716,12 +21783,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 590
   indentLevel: 0
-  storyText: 'It''s exactly as Heden said: just a bunch of squares, formed into the
-    shape of a big square. There are big ones in three of the four corners, and the
-    rest of the diagram is peppered with little ones.'
+  storyText: 'It''s exactly as Heden described it: just a bunch of squares, formed
+    into the shape of a big square. You''ve never seen anything like it.'
   description: 
-  character: {fileID: 0}
-  portrait: {fileID: 0}
+  character: {fileID: 436899906}
+  portrait: {fileID: 21300000, guid: 35401aab0ed90094fb247235d122bd02, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -21745,9 +21811,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 635.39465
-    y: 3921.4185
-    width: 108.41461
+    x: 62.38092
+    y: 4238.186
+    width: 104.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21962,9 +22028,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 722.59454
-    y: 4023.0168
-    width: 166.82922
+    x: 149.58087
+    y: 4339.7827
+    width: 155.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -21992,9 +22058,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 418.59454
-    y: 4003.8167
-    width: 176.43161
+    x: -154.41922
+    y: 4320.582
+    width: 165.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22036,27 +22102,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1852365703
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1852365116}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 602
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1852365687}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &1852365704
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -22098,9 +22143,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1052.9945
-    y: 3908.6167
-    width: 190.03502
+    x: 479.9806
+    y: 4225.385
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22240,9 +22285,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 413.7946
-    y: 4135.8164
-    width: 116.41661
+    x: -159.21918
+    y: 4452.583
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22270,9 +22315,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 580.1945
-    y: 4094.2168
-    width: 179.63242
+    x: 7.180786
+    y: 4410.9834
+    width: 171.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22522,9 +22567,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 976.99475
-    y: 4024.6165
-    width: 87.609406
+    x: 403.98083
+    y: 4341.3823
+    width: 85.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22550,9 +22595,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1079.3948
-    y: 4129.4136
-    width: 136.4216
+    x: 506.38098
+    y: 4446.1797
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -22681,9 +22726,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1282.7954
-    y: 4067.7253
-    width: 213.24081
+    x: 709.7821
+    y: 4384.4917
+    width: 200.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23148,9 +23193,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 763.69415
-    y: 4181.7266
-    width: 129.21982
+    x: 190.68054
+    y: 4498.493
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23202,9 +23247,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 1294.6235
-    y: 4171.3994
-    width: 150.82521
+    x: 721.6102
+    y: 4488.166
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23415,9 +23460,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 476.7705
-    y: 4250.957
-    width: 133.22081
+    x: -96.243225
+    y: 4567.7236
+    width: 126.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23471,9 +23516,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 644.81256
-    y: 4341.3804
-    width: 188.43462
+    x: 71.79883
+    y: 4658.1465
+    width: 178
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23596,9 +23641,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 961.1491
-    y: 4444.869
-    width: 122.81821
+    x: 388.1352
+    y: 4761.6357
+    width: 117.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -23649,9 +23694,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 514.702
-    y: 4458.734
-    width: 114.81621
+    x: -58.311707
+    y: 4775.5
+    width: 110.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24027,7 +24072,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 923.83374
     y: 3558.4536
-    width: 182.83322
+    width: 174.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -24111,6 +24156,333 @@ MonoBehaviour:
   indentLevel: 0
   targetFlowchart: {fileID: 0}
   targetBlock: {fileID: 1852365646}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1852365770
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 668
+  indentLevel: 0
+  text: '*Give him the plate of food*'
+  description: 
+  targetBlock: {fileID: 1852365773}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365771
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 669
+  indentLevel: 0
+  text: Hello, are you Lord Thibberg?
+  description: 
+  targetBlock: {fileID: 1852365772}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &1852365772
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 765.47034
+    y: 3833.3506
+    width: 142.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 670
+  blockName: I'm Lord Thibberg
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365774}
+  - {fileID: 1852365795}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365773
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 834.8037
+    y: 3937.8728
+    width: 190.8
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 671
+  blockName: Give food to Lord Thibberg
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1852365775}
+  - {fileID: 1852365796}
+  - {fileID: 1852365797}
+  - {fileID: 1852365798}
+  - {fileID: 1852365799}
+  suppressAllAutoSelections: 0
+--- !u!114 &1852365774
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 672
+  indentLevel: 0
+  storyText: Yes, thank you. {i}Takes the plate from you.{/i}
+  description: 
+  character: {fileID: 213428198}
+  portrait: {fileID: 21300000, guid: 6b56f11a2ba0dc24fa019a57d5ec8293, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365775
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 673
+  indentLevel: 0
+  storyText: '{i}Takes one bite of his food and immediately falls into a deep sleep.{/i}'
+  description: 
+  character: {fileID: 213428198}
+  portrait: {fileID: 21300000, guid: 6b56f11a2ba0dc24fa019a57d5ec8293, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365777
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 675
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1657105995}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
+--- !u!114 &1852365783
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d02d9822eec54c98afe95bb497211b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scope: 0
+  key: ThibbergAsleep
+  value: 0
+--- !u!114 &1852365795
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 693
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1852365773}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1852365796
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 694
+  indentLevel: 0
+  storyText: SNORE
+  description: 
+  character: {fileID: 213428198}
+  portrait: {fileID: 21300000, guid: 760803781a77895429fb9419df0ca71e, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365797
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 695
+  indentLevel: 0
+  storyText: As Lord Thibberg is sleeping, you spot a scroll on his bedside table.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365798
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 696
+  indentLevel: 0
+  storyText: Looking at it more closely, you see that it has a pattern on it, one
+    with lots of squares.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1852365799
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852365116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 697
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 1852365687}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
